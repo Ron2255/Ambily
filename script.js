@@ -1,6 +1,5 @@
 let highestZ = 1;
 
-      $('.sakura-falling').sakura();
 class Paper {
   holdingPaper = false;
   mouseTouchX = 0;
