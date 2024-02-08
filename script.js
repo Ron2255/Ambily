@@ -16,8 +16,7 @@ class Paper {
   rotating = false;
 
   init(paper) {
-    document.addEventListener('mousemove', (e) => {
-    document.getElementById("my_audio").play(); 
+    document.addEventListener('mousemove', (e) => { 
       if(!this.rotating) {
         this.mouseX = e.clientX;
         this.mouseY = e.clientY;
